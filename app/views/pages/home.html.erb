@@ -1,2 +1,10 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <div class="text-box">
+    <p>
+      WESOFOD is a community-based NGO committed to improving the quality of lives of persons with disabilities in Kambia District, Sierra Leone
+    </p>
+    <%= link_to 'READ MORE', about_path, class: 'button read-more-button' %>
+  </div>
+</div>
+
+<%= render 'shared/footer' %>

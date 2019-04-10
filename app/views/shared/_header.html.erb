@@ -1,0 +1,30 @@
+<div class="header-large d-none d-sm-block">
+  <div class="header-content">
+    <%= link_to 'WESOFOD', root_path, class: 'logo' %>
+    <!-- <h1 class="logo">WESOFOD</h1> -->
+    <div class="header-actions hidden-xs">
+      <%= link_to 'About', about_path, class: 'header-action' %>
+      <%= link_to 'Village of Hope', village_path, class: 'header-action' %>
+      <%= link_to 'RRC', rrc_path, class: 'header-action' %>
+      <%= link_to 'Contact', contact_path, class: 'header-action' %>
+    </div>
+  </div>
+</div>
+
+<div class="header-large d-block d-sm-none">
+  <div class="header-content">
+    <%= link_to 'WESOFOD', root_path, class: 'logo' %>
+    <!-- <h1 class="logo">WESOFOD</h1> -->
+    <div class="header-actions-small hidden-xs">
+      <div class="dropdown">
+        <i class="fas fa-bars" data-toggle="dropdown" role="button"></i>
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="/about">About</a></li>
+          <li><a href="/village-of-hope">Village of Hope</a></li>
+          <li><a href="/rrc">RRC</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+// .about-page-one {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+.link {
+  color: $secondary-color;
+  &:hover {
+    text-decoration: none !important;
+    color: $orange;
+  }
+}
+
+.joseph {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07);
+}
+.joseph-text {
+  margin-right: 16px;
+}
+.joseph-image {
+  width: 40%;
+  height: 40%;
+  box-shadow: 0 3px 20px rgba(62, 9, 11, 0.1);
+}

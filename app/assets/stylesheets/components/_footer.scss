@@ -1,0 +1,20 @@
+.footer {
+  background-color: $primary-color;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  margin: 16px;
+  &:hover {
+  color: $orange;
+  }
+}
+
+.fab {
+  cursor: pointer;
+}
