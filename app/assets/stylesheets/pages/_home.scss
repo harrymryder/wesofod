@@ -1,12 +1,10 @@
 .banner {
-  position: relative;
   background: image-url('wesofod.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: calc(100vh - 120px);
-  // filter: grayscale(1);
+  height: 480px;
 }
 
 .text-box {
@@ -26,4 +24,17 @@
 .read-more-button {
   color: white !important;
   text-decoration: none !important;
+}
+
+.home-container {
+  width: 750px;
+  margin: 0 auto;
+  h1 {
+    color: $primary-color;
+  }
+}
+
+.home-image {
+  width: 100%;
+  margin: 16px;
 }
