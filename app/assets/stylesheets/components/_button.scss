@@ -5,7 +5,10 @@
   text-align: center;
   background-color: $orange !important;
   border-radius: 3px;
+  padding: 8px 50px;
+  transition: color 0.3s ease;
   &:hover {
+    cursor: pointer;
     background-color: #E66400 !important;
   }
 }

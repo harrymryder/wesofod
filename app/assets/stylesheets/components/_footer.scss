@@ -2,8 +2,23 @@
   background-color: $primary-color;
   height: 200px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: white;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .icon {

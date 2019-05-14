@@ -3,18 +3,22 @@
   margin-right: auto;
   margin-left: auto;
   width: 90vw;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .contact-page-container-large {
   margin: 0 auto;
   width: 90vw;
-  height: calc(100vh - 120px);
-  margin-top: 140px;
+  height: calc(100vh - 100px);
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .contact-page-content {
-  width: 75vw;
+  max-width: 650px;
+  margin-right: 16px;
+  margin-left: 16px;
   margin: 0 auto;
   padding: 24px;
   background-color: white;

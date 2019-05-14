@@ -1,9 +1,11 @@
 <div class="banner">
-  <div class="text-box">
+  <div class="text-box d-none d-sm-block">
     <p>
       The Welfare Society for the Disabled (WESOFOD) is a local NGO committed to improving the quality of lives of persons with disabilities in Kambia District, Sierra Leone
     </p>
-    <%= link_to 'READ MORE', about_path, class: 'button read-more-button' %>
+    <div class="read-more">
+      <%= link_to 'READ MORE', about_path, class: 'button read-more-button' %>
+    </div>
   </div>
 </div>
 
@@ -16,15 +18,17 @@
     </p>
   </div>
 
-  <div class="row">
-    <div class="col-xs-offset-1 col-xs-12 col-md-4">
-      <%= image_tag "boy-in-chair", class: 'home-image' %>
-    </div>
-    <div class="col-xs-offset-1 col-xs-12 col-md-4">
-      <%= image_tag "mary-walk", class: 'home-image' %>
-    </div>
-    <div class="col-xs-offset-1 col-xs-12 col-md-4">
-      <%= image_tag "football", class: 'home-image' %>
+  <div class="home-images">
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-12 col-md-4">
+        <%= image_tag "mary-walk", class: 'home-image' %>
+      </div>
+      <div class="col-xs-offset-1 col-xs-12 col-md-4">
+        <%= image_tag "boy-in-chair", class: 'home-image' %>
+      </div>
+      <div class="col-xs-offset-1 col-xs-12 col-md-4">
+        <%= image_tag "football", class: 'home-image' %>
+      </div>
     </div>
   </div>
 
